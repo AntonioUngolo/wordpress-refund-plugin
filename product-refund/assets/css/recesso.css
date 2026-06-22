@@ -1,0 +1,28 @@
+.product-refund-form { max-width: 640px; }
+.product-refund-form label { display: block; font-weight: 600; margin-bottom: 4px; }
+.product-refund-form input[type="text"],
+.product-refund-form input[type="email"],
+.product-refund-form textarea { width: 100%; padding: 8px; }
+.product-refund-form p { margin: 0 0 16px; }
+.product-refund-errors { background: #fce4e4; border: 1px solid #c00; padding: 8px 12px; margin-bottom: 16px; }
+.product-refund-summary { list-style: none; padding: 0; }
+.product-refund-badge { display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: 12px; }
+.product-refund-badge.in { background: #e3f5e3; color: #1a7f37; }
+.product-refund-badge.out { background: #fce4e4; color: #c00; }
+.product-refund-badge.ricevuta { background: #eef3ff; color: #1f4db8; }
+.product-refund-badge.gestita { background: #e3f5e3; color: #1a7f37; }
+.product-refund-button { display: inline-block; padding: 12px 20px; background: #2271b1; color: #fff; text-decoration: none; border-radius: 4px; font-weight: 600; }
+.product-refund-badge.rifiutata { background: #fce4e4; color: #c00; }
+
+.product-refund-order-items { width: 100%; border-collapse: collapse; margin: 12px 0; }
+.product-refund-order-items th,
+.product-refund-order-items td { padding: 10px 12px; border-bottom: 1px solid #e0e0e0; text-align: left; vertical-align: top; }
+.product-refund-order-items thead th { border-bottom: 2px solid #ccc; font-weight: 600; }
+.product-refund-order-items th:nth-child(2),
+.product-refund-order-items td:nth-child(2) { text-align: center; width: 90px; white-space: nowrap; }
+.product-refund-order-items thead th:last-child,
+.product-refund-order-items tbody td:last-child { text-align: right; width: 140px; white-space: nowrap; }
+.product-refund-order-items tfoot th,
+.product-refund-order-items tfoot td { border-top: 2px solid #ccc; border-bottom: none; font-weight: 700; }
+.product-refund-order-items tfoot th { text-align: right; }
+.product-refund-order-items tfoot td { text-align: right; white-space: nowrap; }
